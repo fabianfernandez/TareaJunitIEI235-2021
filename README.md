@@ -25,6 +25,7 @@ java -version
 En caso de usar el sistema operativo de Windows solo es necesario ejecutar el archivo .bat que se requiera.
 - Para ejecutar el programa, hacer doble click en ejecutablePrograma.
 - Para ejecutar los test de Junit, hacer doble click en ejecutableTest.
+
 En caso de usar el sistema Linux:
 
 - Para ejecutar el programa, es necesario compilar y luego correr la clase TareaJunit.java usando el siguiente comando en este mismo directorio:
