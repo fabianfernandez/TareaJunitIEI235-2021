@@ -1,0 +1,43 @@
+[14/07/2021 11:18:39] agregarInventarioTest1 Entrada: "30\n10\n20\n40\n"
+[14/07/2021 11:18:39] agregarInventarioTest1 Salida:
+Ingresa las unidades de cafe para agregar al stock: Ingresa las unidades de chocolate para agregar al stock: Ingresa las unidades de leche para agregar al stock: Ingresa las unidades de azucar para agregar al stock: 
+[14/07/2021 11:18:39] agregarInventarioTest2 Entrada: "30\n-10\n10\n20\n40\n"
+[14/07/2021 11:18:39] agregarInventarioTest2 Salida:
+Ingresa las unidades de cafe para agregar al stock: Ingresa las unidades de chocolate para agregar al stock: Ingresa las unidades de chocolate para agregar al stock: Ingresa las unidades de leche para agregar al stock: Ingresa las unidades de azucar para agregar al stock: 
+[14/07/2021 11:18:39] agregarInventarioTest3 Entrada: "30\ntext\n10\n20\n40\n"
+[14/07/2021 11:18:39] agregarInventarioTest3 Salida:
+Ingresa las unidades de cafe para agregar al stock: Ingresa las unidades de chocolate para agregar al stock: Ingresa las unidades de chocolate para agregar al stock: Ingresa las unidades de leche para agregar al stock: Ingresa las unidades de azucar para agregar al stock: 
+[14/07/2021 11:18:39] verificarInventarioTest Entrada: ""
+[14/07/2021 11:18:39] verificarInventarioTest Salida:
+Cantidad de unidades de cafe en stock: 0
+Cantidad de unidades de chocolate en stock: 0
+Cantidad de unidades de leche en stock: 0
+Cantidad de unidades de azucar en stock: 0
+
+[14/07/2021 11:18:39] comprarBebidaTest1 Entrada: "1\n700\n"
+[14/07/2021 11:18:39] comprarBebidaTest1 Salida:
+Lista de Bebidas:
+1. Cafe con leche, Precio: 500
+2. Capuccino, Precio: 1000
+3. Expreso, Precio: 500
+Ingresa el numero de la bebida: Ingresa el dinero: Su bebida Cafe con leche esta listo
+Su cambio es el siguiente: 200
+
+[14/07/2021 11:18:39] comprarBebidaTest2 Entrada: "1\n500\n"
+[14/07/2021 11:18:39] comprarBebidaTest2 Salida:
+Lista de Bebidas:
+1. Cafe con leche, Precio: 500
+2. Capuccino, Precio: 1000
+3. Expreso, Precio: 500
+Ingresa el numero de la bebida: Ingresa el dinero: No hay suficientes insumos para hacer esta bebida
+Su cambio es el siguiente: 500
+
+[14/07/2021 11:18:39] comprarBebidaTest3 Entrada: "1\n400\n"
+[14/07/2021 11:18:39] comprarBebidaTest3 Salida:
+Lista de Bebidas:
+1. Cafe con leche, Precio: 500
+2. Capuccino, Precio: 1000
+3. Expreso, Precio: 500
+Ingresa el numero de la bebida: Ingresa el dinero: Dinero ingresado insuficiente
+Su cambio es el siguiente: 400
+
