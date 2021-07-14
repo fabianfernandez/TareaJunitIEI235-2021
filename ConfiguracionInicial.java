@@ -1,8 +1,8 @@
 public class ConfiguracionInicial{
-  private int maxUnidadesCafe;
-  private int maxUnidadesChocolate;
-  private int maxUnidadesLeche;
-  private int maxUnidadesAzucar;
+  public  int maxUnidadesCafe;
+  public  int maxUnidadesChocolate;
+  public  int maxUnidadesLeche;
+  public  int maxUnidadesAzucar;
   private Receta receta1;
   private Receta receta2;
   private Receta receta3;

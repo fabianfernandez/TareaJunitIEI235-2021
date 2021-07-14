@@ -29,7 +29,7 @@ public class Inventario{
       input = buffer.nextLine();
       try {
         int cantidad = Integer.parseInt(input);
-        if (cantidad<0) {
+        if (cantidad<0||config.maxUnidadesCafe < cantidad + cafe.obtenerStock()) {
           continue;
         }
         this.cafe.agregarStock(cantidad);
@@ -44,7 +44,7 @@ public class Inventario{
       input = buffer.nextLine();
       try {
         int cantidad = Integer.parseInt(input);
-        if (cantidad<0) {
+        if (cantidad<0 ||config.maxUnidadesChocolate < cantidad + chocolate.obtenerStock()) {
           continue;
         }
         this.chocolate.agregarStock(cantidad);
@@ -58,7 +58,7 @@ public class Inventario{
       input = buffer.nextLine();
       try {
         int cantidad = Integer.parseInt(input);
-        if (cantidad<0) {
+        if (cantidad<0 ||config.maxUnidadesLeche < cantidad + leche.obtenerStock()) {
           continue;
         }
         this.leche.agregarStock(cantidad);
@@ -72,7 +72,7 @@ public class Inventario{
       input = buffer.nextLine();
       try {
         int cantidad = Integer.parseInt(input);
-        if (cantidad<0) {
+        if (cantidad<0 ||config.maxUnidadesAzucar < cantidad + azucar.obtenerStock()) {
           continue;
         }
         this.azucar.agregarStock(cantidad);
