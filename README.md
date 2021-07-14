@@ -2,6 +2,8 @@
 
 ## Descripción:
 
+Este programa corresponde a una tarea en la cual se simula el funcionamiento de una maquina expendedora de cafe en el lenguaje de Java. Ademas se utiliza la herramienta de Junit para generar pruebas unitarias y así probar las funcionalidades de la aplicación de manera independiente. Para mas informacion de las pruebas de Junit usadas y el comportamiento de la maquina ingresar a los .pdf de este directorio.
+
 ## Tecnología:
 
 - Java jdk
